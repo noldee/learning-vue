@@ -1,9 +1,18 @@
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <h1>Listado de posts: </h1>
+  <PostContainer />
 </template>
 
-<style scoped></style>
+
+<script lang="ts" setup>
+ 
+   import PostContainer from './components/PostContainer.vue';
+</script>
+
+<style scoped>
+
+  h1{
+    color: green;
+  }
+
+</style>
