@@ -16,6 +16,6 @@
 		border-radius: 15px;
 		padding: 10px;
 		margin: 5px;
-		border: 1px solid #ccc;
+		border: 1px solid;
 	}
 </style>
