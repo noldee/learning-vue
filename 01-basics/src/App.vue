@@ -1,18 +1,10 @@
 <template>
-  <h1>Listado de posts: </h1>
-  <PostContainer />
- <CounterOption />
- <CounterOption />
- <CounterOption />
-  <CounterComposition />
+  <ExampleFor />
 </template>
 
 
 <script lang="ts" setup>
- 
-   import PostContainer from './components/PostContainer.vue';
-   import CounterOption from './components/CounterOption.vue';
-   import CounterComposition from './components/CounterComposition.vue';
+import ExampleFor from './components/ExampleFor.vue';
 </script>
 
 <style scoped>
