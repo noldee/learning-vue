@@ -4,9 +4,7 @@
 </template>
 
 <script lang="ts" setup>
- 	let age = 11;
+let age = 11;
 </script>
 
-<style scoped>
-	
-</style>
+<style scoped></style>

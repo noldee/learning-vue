@@ -1,10 +1,10 @@
 <template>
-  <ExampleFor />
+  <ClaseBind/>
 </template>
 
 
 <script lang="ts" setup>
-import ExampleFor from './components/ExampleFor.vue';
+  import ClaseBind from './components/ClaseBind.vue';
 </script>
 
 <style scoped>
